@@ -9,7 +9,7 @@ jobs:
 
 
   deploy_source:
-    name: deploy lambda from source
+    name: sns
     runs-on: ubuntu-latest
     steps :
       - name: Publish SNS Topic
